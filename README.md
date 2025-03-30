@@ -2,19 +2,41 @@ RideShare IIT Indore is a web-based ride-sharing platform designed specifically 
 
 **Key Features:**
 
-User Authentication: Secure login and registration system for students. Ride Creation: Students can create rides by specifying the source, destination, time, number of available seats, and the cost per seat. Ride Visibility: All rides created by students are visible to other IIT Indore students. Ride History & Rating System: A history of past rides with a rating and review system for reliability and trust-building. Ride Search: Users can search for available rides by destination, source, or both. Join Ride Request: Users can request to join a ride, and the ride creator can accept or decline the request. Route Suggestions (Optional): Integration of Google Maps API to suggest the best routes for rides. Chat Feature (Optional): A messaging system to facilitate communication between ride creators and passengers.
+User Authentication: Secure login and registration system for students.
+Ride Creation: Students can create rides by specifying the source, destination, time, number of available seats, and the cost per seat.
+Ride Visibility: All rides created by students are visible to other IIT Indore students.
+Ride History & Rating System: A history of past rides with a rating and review system for reliability and trust-building.
+Ride Search: Users can search for available rides by destination, source, or both.
+Join Ride Request: Users can request to join a ride, and the ride creator can accept or decline the request.
+Route Suggestions (Optional): Integration of Google Maps API to suggest the best routes for rides.
+Chat Feature (Optional): A messaging system to facilitate communication between ride creators and passengers.
 
 **Technical Requirements:**
 
-Frontend: Built using React.js or Next.js Backend: Developed using Django or Express.js Getting Started Prerequisites Node.js (for frontend) npm or yarn (for package management) Express.js or Django (for backend) PostgreSQL or any other database (for data storage) cd rideshare-iit-indore
+Frontend: Built using React.js or Next.js
+Backend: Developed using Django or Express.js
+Getting Started
+Prerequisites
+Node.js (for frontend)
+npm or yarn (for package management)
+Express.js or Django (for backend)
+PostgreSQL or any other database (for data storage)
+cd rideshare-iit-indore
 
 **Frontend Setup**
 
 **Navigate to the frontend directory:**
 
-cd frontend Install dependencies: npm install or yarn install
+cd frontend
+Install dependencies:
+npm install
+or
+yarn install
 
-Start the development server: npm start or yarn start
+Start the development server:
+npm start
+or
+yarn start
 
 **Backend Setup:**
 
@@ -22,13 +44,20 @@ Start the development server: npm start or yarn start
 
 cd backend
 
-Install dependencies (if using Express.js): npm install or yarn install
+Install dependencies (if using Express.js):
+npm install
+or
+yarn install
 
-Start the backend server: npm start or yarn start
+Start the backend server:
+npm start
+or
+yarn start
 
 **Usage**
 
-Access the application in your web browser at http://localhost:3000 (or the port specified in your configuration). Register or log in to start creating or joining rides.
+Access the application in your web browser at http://localhost:3000 (or the port specified in your configuration).
+Register or log in to start creating or joining rides.
 
 **Contributing**
 
